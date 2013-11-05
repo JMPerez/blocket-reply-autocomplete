@@ -1,0 +1,72 @@
+body, button, td, textarea, input {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+body {
+  background-color: white;
+  margin-left: 155px;
+  margin-right: 0px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 20px;
+  display: inline;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+header {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  min-width: 600px;
+}
+
+section {
+  -webkit-padding-start: 18px;
+  margin-bottom: 24px;
+  margin-top: 8px;
+  max-width: 600px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.field {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  float: left;
+}
+
+input {
+  width: 200px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 450px;
+  height: 400px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

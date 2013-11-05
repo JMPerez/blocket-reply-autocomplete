@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Blocket reply autocomplete Options</title>
+		<link rel="stylesheet" type="text/css" href="options.css">
+	</head>
+	<body>
+		<div class="fixed-top">
+			<header>
+				<h1>Blocket reply autocomplete Options</h1>
+			</header>
+		</div>
+		<section>
+			<h3>Fields</h3>
+			<div class="field">
+				<label for="name">Name</label>
+				<input type="text" id="name">
+			</div>
+			<div class="field">
+				<label for="email">Email</label>
+				<input type="email" id="email">
+			</div>
+			<div class="field">
+				<label for="phone">Phone number</label>
+				<input type="text" id="phone">
+			</div>
+
+			<div class="field">
+				<label for="message">Message</label>
+				<div style="display:inline-block">
+					<textarea id="message"></textarea>
+					<p>Available placeholders are:</p>
+					<ul>
+						<li>{{advertiser_short_name}}</li>
+						<li>{{ad_id}}</li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="status"></div>
+
+		</section>
+		<script src="options.js"></script>
+	</body>
+</html>
