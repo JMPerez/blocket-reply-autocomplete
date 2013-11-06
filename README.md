@@ -6,6 +6,9 @@ A Google Chrome Extension that autocompletes the fields when replying to an ad o
 If you have used Blocket for doing an active search, like looking for an apartment, you know you need to reply to lots of ads. Yet you also want each message to be slightly customised.
 
 ## Setting up
+
+On Google Chrome, open the _Extensions page_ (chrome://chrome/extensions/) and enable Developer Mode. Then, click on "Load unpacked extension..." and select the folder where you have deployed the source code.
+
 Open the Options page for the extension and input the name, email, phone number and message text. You can use placeholders in your message that will be replaced with data from the ad. The available placeholders are:
 * advertiser_short_name
 * ad_id
